@@ -23,3 +23,31 @@
     padding: 2px 0;
     top: 5px;
 }
+
+.django-mediumeditor-toolbar {
+  background-color: #242424;
+  background: -webkit-linear-gradient(top, #242424, rgba(36, 36, 36, 0.75));
+  background: linear-gradient(to bottom, #242424, rgba(36, 36, 36, 0.75));
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #000; }
+  .django-mediumeditor-toolbar li button {
+    background-color: #ffffff;
+    background: -webkit-linear-gradient(top, #ffffff, rgba(185, 185, 185, 0.90));
+    background: linear-gradient(to bottom, #ffffff, rgba(185, 185, 185, 0.90));
+    border: 0;
+    border-right: 1px solid #000;
+    border-left: 1px solid #333;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #242424;
+    height: 50px;
+    min-width: 50px;
+    -webkit-transition: background-color .2s ease-in;
+            transition: background-color .2s ease-in; }
+  .django-mediumeditor-toolbar li .django-mediumeditor-button-first {
+	background-color: #734B9D;
+    background: -webkit-linear-gradient(top, #734B9D, rgba(36, 36, 36, 0.89));
+    background: linear-gradient(to bottom, #734B9D, rgba(36, 36, 36, 0.89));
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px; }
