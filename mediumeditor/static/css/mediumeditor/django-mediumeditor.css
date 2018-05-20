@@ -46,7 +46,7 @@
     -webkit-transition: background-color .2s ease-in;
             transition: background-color .2s ease-in; }
   .django-mediumeditor-toolbar li .django-mediumeditor-button-first {
-	background-color: #734B9D;
+    background-color: #734B9D;
     background: -webkit-linear-gradient(top, #734B9D, rgba(36, 36, 36, 0.89));
     background: linear-gradient(to bottom, #734B9D, rgba(36, 36, 36, 0.89));
     border-bottom-left-radius: 5px;
